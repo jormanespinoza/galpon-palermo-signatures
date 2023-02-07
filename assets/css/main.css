@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: center;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+@font-face {
+  font-family: 'HelveticaLTStd-Roman';
+  src: url(../fonts/HelveticaLTStd-Roman.eot);
+  src: url(../fonts/HelveticaLTStd-Roman.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/HelveticaLTStd-Roman.ttf) format('truetype'),
+    url(../fonts/HelveticaLTStd-Roman.svg#HelveticaLTStd-Roman) format('svg'),
+    url(../fonts/HelveticaLTStd-Roman.otf) format('otf'),
+    url(../fonts/HelveticaLTStd-Roman.woff) format('woff');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url(../fonts/RedHatDisplay-VariableFont_wght.eot);
+  src: url(../fonts/RedHatDisplay-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/RedHatDisplay-VariableFont_wght.ttf) format('truetype'),
+    url(../fonts/RedHatDisplay-VariableFont_wght.svg#RedHatDisplay-VariableFont_wght) format('svg'),
+    url(../fonts/RedHatDisplay-VariableFont_wght.otf) format('otf'),
+    url(../fonts/RedHatDisplay-VariableFont_wght.woff) format('woff');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: #fff;
+  font: 400 14px 'HelveticaLTStd-Roman', Monospace, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 15px 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  background: url('../template/logo.png') no-repeat center center;
+  background-size: contain;
+  width: 80px;
+  height: 112px;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto 15px;
+  cursor: pointer;
+}
+
+a {
+  color: #0d0e0e;
+}
+
+a:hover {
+  color: gray;
+}
