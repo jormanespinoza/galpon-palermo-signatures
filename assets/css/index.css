@@ -89,6 +89,10 @@ table th.r {
 }
 
 @media screen and (max-width: 767px) {
+  input#search {
+    max-width: 250px;
+  }
+
   table {
     display: block;
     max-width: 300px;
